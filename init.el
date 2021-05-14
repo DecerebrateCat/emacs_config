@@ -100,6 +100,9 @@
 (define-key global-map "\M-?" 'help-for-help) ; ヘルプ
 (define-key global-map "\C-\\" nil) ; \C-\の日本語入力の設定を無効にする
 
+;;; disable menu-bar
+(menu-bar-mode -1)
+
 ;;; 色を付ける
 (global-font-lock-mode t)
 
